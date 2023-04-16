@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F1EED6;
+    height: 710px;
+}
+
+.about_img {
+    width: 497px;
+    height: 340px;
+}
+
+.about_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_article > h3 {
+    font-size: 65px;
+    font-family: 'Domine', serif;
+    color: #005F2E;
+}
+
+.about_article > p {
+    width: 685px;
+    height: 426px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.navbar {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+    transition: 0.5s ease-in;
+}
+
+.scrolled {
+    background-color: #000;
+    opacity: 0.93;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+    transition: 0.5s ease-out;
+}
+
+.navbar_logo {
+    width: 87px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.nav_menu > li {
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.instagram_img {
+    filter: invert(99%) sepia(22%) saturate(720%) hue-rotate(265deg) brightness(119%) contrast(100%);
+    width: 29.5px;
+    height: 30px;
+}
