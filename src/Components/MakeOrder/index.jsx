@@ -2,6 +2,7 @@ import React from "react";
 import styles from './makeOrder.module.css';
 import epicImg from '../../assets/logo2.png';
 import cilantroImg from '../../assets/cilantro.png';
+import Form from "./Form";
 
 export default function MakeOrder() {
     return (
@@ -12,13 +13,13 @@ export default function MakeOrder() {
             </section>
             <section className={styles.content}>
                 <div className={styles.left_content}>
-                    <h3>Phone: + 1 123-456-7890</h3>
-                    <h3>Email: testemail@email.com</h3>
+                    <p>Phone: + 1 123-456-7890</p>
+                    <p>Email: testemail@email.com</p>
                     <img src={epicImg} alt="epic sauce logo" className={styles.logo_img}/>
                     <img src={cilantroImg} alt="cilantro image" className={styles.cilantro_img}/>
                 </div>
-                <div>
-                    <h4>Formulario</h4>
+                <div className={styles.right_content}>
+                    <Form />
                 </div>
             </section>
         </div>

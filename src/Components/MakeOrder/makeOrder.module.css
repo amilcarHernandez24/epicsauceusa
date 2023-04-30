@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 .order_box {
     display: flex;
@@ -31,19 +32,36 @@
 }
 
 .content {
-    margin-top: 25px;
+    margin-top: 35px;
     display: flex;
     flex-direction: row;
 }
 
 .left_content {
+    width: 50%;
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
+/* .left_content > p {
+    margin-top: 25px;
+} */
+
 .logo_img {
-    width: 640px;
-    height: 525px;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+
+.cilantro_img {
+    width: 350px;
+    height: 300px;
+    margin-top: 300px;
+}
+
+.right_content {
+    width: 50%;
 }
