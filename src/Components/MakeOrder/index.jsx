@@ -13,8 +13,10 @@ export default function MakeOrder() {
             </section>
             <section className={styles.content}>
                 <div className={styles.left_content}>
-                    <p>Phone: + 1 123-456-7890</p>
-                    <p>Email: testemail@email.com</p>
+                    <div>
+                        <p>Phone: + 1 123-456-7890</p>
+                        <p>Email: testemail@email.com</p>
+                    </div>
                     <img src={epicImg} alt="epic sauce logo" className={styles.logo_img}/>
                     <img src={cilantroImg} alt="cilantro image" className={styles.cilantro_img}/>
                 </div>
